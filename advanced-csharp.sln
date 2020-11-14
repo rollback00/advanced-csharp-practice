@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{77A5FC73-B858-48F1-AE3B-CDCC9CA061E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethodsLambda", "Anonymous-Methods-Lambda\AnonymousMethodsLambda.csproj", "{B5F4F539-B5E9-46A6-AF9B-7555EECC9FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{77A5FC73-B858-48F1-AE3B-CDCC9CA061E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A5FC73-B858-48F1-AE3B-CDCC9CA061E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A5FC73-B858-48F1-AE3B-CDCC9CA061E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F4F539-B5E9-46A6-AF9B-7555EECC9FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F4F539-B5E9-46A6-AF9B-7555EECC9FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F4F539-B5E9-46A6-AF9B-7555EECC9FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F4F539-B5E9-46A6-AF9B-7555EECC9FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
