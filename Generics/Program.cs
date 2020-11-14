@@ -9,12 +9,18 @@ namespace Generics
     {
       //Console.WriteLine("Hello World!");
 
-      var result1 = new Result<int, string> { Success = true, Data = 12, Data2 = "Papa" };
-      var result2 = new Result<string, bool> { Success = true, Data = "John", Data2 = false };
+      var resultInt = new Result<int> { Success = true, Data = 20};
+      var resultString = new Result<string> { Success = false, Data = "Papa" };
 
-      Console.WriteLine($"Result 1 Data: {result1.Data.GetType()}\nResult 1 Data2: {result1.Data2.GetType()}");
-      Console.WriteLine();
-      Console.WriteLine($"Result 2 Data: {result2.Data.GetType()}\nResult 2 Data2: {result2.Data2.GetType()}");
+      var rp = new ResultPrinter();
+      rp.Print(resultInt);
+      rp.Print(resultString);
+
+
+      //Console.WriteLine($"Result 1 Data: {result1.Data.GetType()}\nResult 1 Data2: {result1.Data2.GetType()}");
+      //Console.WriteLine();
+      //Console.WriteLine($"Result 2 Data: {result2.Data.GetType()}\nResult 2 Data2: {result2.Data2.GetType()}");
     }
   }
 }
+ 

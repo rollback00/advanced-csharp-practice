@@ -4,10 +4,9 @@ using System.Text;
 
 namespace advanced_csharp.Generics
 {
-  class Result<T, U>
+  class Result<T>
   {
     public bool Success { get; set; }
     public T Data { get; set; }
-    public U Data2 { get; set; }
   }
 }
